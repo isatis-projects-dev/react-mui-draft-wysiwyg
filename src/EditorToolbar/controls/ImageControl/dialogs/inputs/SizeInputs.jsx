@@ -4,8 +4,7 @@ import useEditor from '../../../../../hooks/useEditor';
 import Grid from '@material-ui/core/Grid';
 import TextField from '@material-ui/core/TextField';
 import IconButton from '@material-ui/core/IconButton';
-import LockOpenIcon from '@material-ui/icons/LockOpen';
-import LockIcon from '@material-ui/icons/Lock';
+import { LockOpen as LockOpenIcon, Lock as LockIcon } from 'mdi-material-ui';
 
 function SizeInputs({
     originalWidth,

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import useEditor from '../../../hooks/useEditor';
-import FormatColorTextIcon from '@material-ui/icons/FormatColorText';
+import { FormatColorText as FormatColorTextIcon } from 'mdi-material-ui';
 import inlineStyles from '../../../types/inlineStyles';
 import ToggleInlineStyleColorSelectorControl from '../core/ToggleInlineStyleColorSelectorControl';
 

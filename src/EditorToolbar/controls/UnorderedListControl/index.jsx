@@ -1,7 +1,7 @@
 import React from 'react';
 import useEditor from '../../../hooks/useEditor';
 import ToggleBlockTypeButtonControl from '../core/ToggleBlockTypeButtonControl';
-import FormatListBulletedIcon from '@material-ui/icons/FormatListBulleted';
+import { FormatListBulleted as FormatListBulletedIcon } from 'mdi-material-ui';
 
 function UnorderedListControl() {
     const editor = useEditor();

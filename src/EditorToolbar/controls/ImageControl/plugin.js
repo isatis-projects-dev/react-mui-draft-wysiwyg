@@ -8,13 +8,15 @@ import useEditorFocus from '../../../hooks/useEditorFocus';
 import Popover from '@material-ui/core/Popover';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
-import ImageIcon from '@material-ui/icons/Image';
-import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
-import ArrowRightIcon from '@material-ui/icons/ArrowRight';
-import PhotoSizeSelectLargeIcon from '@material-ui/icons/PhotoSizeSelectLarge';
-import DeleteIcon from '@material-ui/icons/Delete';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
+import {
+    Image as ImageIcon,
+    ArrowLeft as ArrowLeftIcon,
+    ArrowRight as ArrowRightIcon,
+    ImageSizeSelectLarge as PhotoSizeSelectLargeIcon,
+    Delete as DeleteIcon,
+} from 'mdi-material-ui';
 
 const EditorMedia = ({ contentState, block }) => {
     const entity = contentState.getEntity(block.getEntityAt(0));

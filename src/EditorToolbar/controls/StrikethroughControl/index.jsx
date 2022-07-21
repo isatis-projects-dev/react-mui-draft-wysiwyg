@@ -1,7 +1,7 @@
 import React from 'react';
 import useEditor from '../../../hooks/useEditor';
 import ToggleInlineStyleButtonControl from '../core/ToggleInlineStyleButtonControl';
-import FormatStrikethroughIcon from '@material-ui/icons/FormatStrikethrough';
+import { FormatStrikethrough as FormatStrikethroughIcon } from 'mdi-material-ui';
 import inlineStyles from '../../../types/inlineStyles';
 
 function StrikethroughControl() {

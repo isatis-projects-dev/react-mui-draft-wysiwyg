@@ -1,7 +1,7 @@
 import React from 'react';
 import useEditor from '../../../hooks/useEditor';
 import ToggleInlineStyleButtonControl from '../core/ToggleInlineStyleButtonControl';
-import CodeIcon from '@material-ui/icons/Code';
+import { CodeTags as CodeIcon } from "mdi-material-ui";
 import inlineStyles from '../../../types/inlineStyles';
 
 function CodeControl() {

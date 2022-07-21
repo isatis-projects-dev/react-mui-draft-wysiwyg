@@ -2,11 +2,14 @@ import React from 'react';
 import useEditor from '../../../hooks/useEditor';
 import useEditorFocus from '../../../hooks/useEditorFocus';
 import { Modifier, EditorState } from 'draft-js';
-import FormatAlignLeftIcon from '@material-ui/icons/FormatAlignLeft';
-import FormatAlignCenterIcon from '@material-ui/icons/FormatAlignCenter';
-import FormatAlignRightIcon from '@material-ui/icons/FormatAlignRight';
-import FormatAlignJustifyIcon from '@material-ui/icons/FormatAlignJustify';
 import ButtonControl from '../core/ButtonControl';
+
+import {
+    FormatAlignLeft as FormatAlignLeftIcon,
+    FormatAlignCenter as FormatAlignCenterIcon,
+    FormatAlignRight as FormatAlignRightIcon,
+    FormatAlignJustify as FormatAlignJustifyIcon,
+} from 'mdi-material-ui';
 
 function TextAlignControl() {
     const editor = useEditor();

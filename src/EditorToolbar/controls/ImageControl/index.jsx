@@ -3,19 +3,17 @@ import PropTypes from 'prop-types';
 import useEditor from '../../../hooks/useEditor';
 import useEditorFocus from '../../../hooks/useEditorFocus';
 import ButtonControl from '../core/ButtonControl';
-import ImageIcon from '@material-ui/icons/Image';
 import Popover from '@material-ui/core/Popover';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import PublishIcon from '@material-ui/icons/Publish';
-import LinkIcon from '@material-ui/icons/Link';
 import entities from '../../../types/entities';
 import { EditorState, AtomicBlockUtils } from 'draft-js';
 import ByUrlDialog from './dialogs/ByURLDialog';
 import UploadDialog from './dialogs/UploadDialog';
 import ResizeImageDialog from './dialogs/ResizeImageDialog';
+import { Image as ImageIcon, Publish as PublishIcon, Link as LinkIcon } from 'mdi-material-ui';
 
 function ImageControl({ configuration, defaultConfiguration }) {
     const editor = useEditor();

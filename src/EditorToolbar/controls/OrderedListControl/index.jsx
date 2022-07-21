@@ -1,8 +1,8 @@
 import React from 'react';
 import useEditor from '../../../hooks/useEditor';
 import ToggleBlockTypeButtonControl from '../core/ToggleBlockTypeButtonControl';
-import FormatListNumberedIcon from '@material-ui/icons/FormatListNumbered';
 import blockStyles from '../../../types/blockStyles';
+import { FormatListNumbered as FormatListNumberedIcon } from 'mdi-material-ui';
 
 function OrderedListControl() {
     const editor = useEditor();

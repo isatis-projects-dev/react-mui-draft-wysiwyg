@@ -3,7 +3,8 @@ import useEditor from '../../../hooks/useEditor';
 import useEditorFocus from '../../../hooks/useEditorFocus';
 import { EditorState } from 'draft-js';
 import ButtonControl from '../core/ButtonControl';
-import UndoIcon from '@material-ui/icons/Undo';
+
+import { Undo as UndoIcon } from 'mdi-material-ui';
 
 function UndoControl() {
     const editor = useEditor();

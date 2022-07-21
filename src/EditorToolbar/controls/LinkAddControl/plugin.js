@@ -8,8 +8,7 @@ import entities from '../../../types/entities';
 import Popover from '@material-ui/core/Popover';
 import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
-import LaunchIcon from '@material-ui/icons/Launch';
-import LinkOffIcon from '@material-ui/icons/LinkOff';
+import { Launch as LaunchIcon, LinkOff as LinkOffIcon } from 'mdi-material-ui';
 
 const linkStrategy = (contentBlock, callback, contentState) => {
     contentBlock.findEntityRanges((character) => {
