@@ -1,7 +1,7 @@
 import React from 'react';
 import useEditor from '../../../hooks/useEditor';
 import ToggleInlineStyleButtonControl from '../core/ToggleInlineStyleButtonControl';
-import { FormatUnderlined as FormatUnderlinedIcon } from 'mdi-material-ui';
+import { FormatUnderline as FormatUnderlinedIcon } from 'mdi-material-ui';
 import inlineStyles from '../../../types/inlineStyles';
 
 function UnderlineControl() {
